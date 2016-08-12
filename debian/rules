@@ -3,15 +3,12 @@
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
+export QT_SELECT = 5
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
 	dh $@ 
 
 override_dh_auto_configure:
-	qmake -- PREFIX=/usr
-
-override_dh_install:
-	dh_install
-
-override_dh_clean:
-	dh_clean
+	dh_auto_configure --buildsystem=qmake -- \
+	    QMAKE_CFLAGS_ISYSTEM= CONFIG+=binaryMode

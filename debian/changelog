@@ -1,3 +1,9 @@
+cutegram (2.9.5-1aseman-xenial-1) unstable; urgency=medium
+
+  * Repack for Debian unstable.
+
+ -- Boyuan Yang <073plan@gmail.com>  Fri, 12 Aug 2016 15:56:04 +0800
+
 cutegram (2.9.5-1aseman-xenial) xenial; urgency=medium
 
   * Completely rewritten using new libqtelegram-ae and telegram-qml

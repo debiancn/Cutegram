@@ -1,3 +1,4 @@
+cutegram usr/bin/
 debian/tmp/usr/share/applications
 debian/tmp/usr/share/icons
 debian/tmp/usr/share/pixmaps
@@ -16,8 +17,6 @@ debian/tmp/usr/share/cutegram/3.0/sounds
 debian/tmp/usr/share/cutegram/3.0/thirdparty
 debian/tmp/usr/share/cutegram/3.0/toolkit
 debian/tmp/usr/share/cutegram/3.0/tools
-debian/tmp/usr/share/cutegram/3.0/GPL.txt
-debian/tmp/usr/share/cutegram/3.0/LICENSE
 debian/tmp/usr/share/cutegram/3.0/main.qml
 debian/tmp/usr/share/cutegram/3.0/emojis/qmldir
 debian/tmp/usr/share/cutegram/3.0/emojis/Emojione.qml
