@@ -4,34 +4,44 @@ Priority: optional
 Maintainer: Aseman Team <contact@aseman.co>
 Build-Depends:
  debhelper (>= 9),
+ qt5-qmake,
  qtbase5-dev (>= 5.2.0),
  qtdeclarative5-dev (>= 5.2.0),
- qt5-qmake
 Standards-Version: 3.9.8
 Homepage: https://aseman.co/cutegram
 Vcs-Git: https://github.com/Aseman-Land/Cutegram
 
-Package: cutegram-emojis-twemoji
-Architecture: all
-Depends: ${misc:Depends}
-Description: Twemoji pack for cutegram
- Twemoji pack for the cutegram client
+Package: cutegram
+Architecture: any
+Depends:
+ asemantools (>= 1.0.0),
+ cutegram-emojis-emojione (= ${source:Version}),
+ cutegram-emojis-twemoji (= ${source:Version}),
+ qml-module-qtgraphicaleffects,
+ qml-module-qtmultimedia,
+ qml-module-qtquick-controls,
+ qml-module-qtquick-dialogs,
+ qml-module-qtquick-window2,
+ qml-module-qtquick2,
+ qml-module-qtsensors,
+ qmlscene,
+ qtchooser,
+ telegramqml (>= 2.0.0),
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Another telegram client
+ Better telegram client from Aseman Team.
 
 Package: cutegram-emojis-emojione
 Architecture: all
-Depends: ${misc:Depends}
+Depends:
+ ${misc:Depends},
 Description: Emojione pack for cutegram
  Emojione pack for the cutegram client
 
-Package: cutegram
-Architecture: any
-Depends: asemantools (>= 1.0.0),
-  telegramqml (>= 2.0.0),
-  qtchooser,
-  qmlscene,
-  cutegram-emojis-emojione (= ${source:Version}),
-  cutegram-emojis-twemoji (= ${source:Version}),
-  ${misc:Depends},
-  ${shlibs:Depends}
-Description: Another telegram client
- Better telegram client from Aseman Team.
+Package: cutegram-emojis-twemoji
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Twemoji pack for cutegram
+ Twemoji pack for the cutegram client
