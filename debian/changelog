@@ -1,3 +1,9 @@
+cutegram (2.9.5-1aseman-xenial-2) unstable; urgency=medium
+
+  * Fix for dependency to install successfully.
+
+ -- Boyuan Yang <073plan@gmail.com>  Sat, 27 Aug 2016 12:39:22 +0800
+
 cutegram (2.9.5-1aseman-xenial-1) unstable; urgency=medium
 
   * Repack for Debian unstable.
