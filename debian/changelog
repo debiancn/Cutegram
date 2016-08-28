@@ -1,3 +1,9 @@
+cutegram (2.9.5-1aseman-xenial-3) unstable; urgency=medium
+
+  * Enable libappindicator support.
+
+ -- Boyuan Yang <073plan@gmail.com>  Sun, 28 Aug 2016 14:33:06 +0800
+
 cutegram (2.9.5-1aseman-xenial-2) unstable; urgency=medium
 
   * Fix for dependency to install successfully.
