@@ -1,10 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cutegram
-Source: aseman.co/cutegram
+Source: https://github.com/Aseman-Land/cutegram
 
 Files: *
 Copyright: 2015 Aseman Team
-License: GPL-3.0+
+License: GPL-3+
 
 Files: debian/*
 Copyright: 2015 Aseman Team <contact@aseman.co>
