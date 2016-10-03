@@ -1,0 +1,23 @@
+From: Boyuan Yang <073plan@gmail.com>
+Date: Mon, 3 Oct 2016 16:04:00 +0800
+Subject: cutegram.pro: patch to install full files.
+
+The current installation will discard qml and resource files
+in the binary mode. Patching to install all files and let
+the user choose the file he/she is willing to use.
+---
+ cutegram.pro | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/cutegram.pro b/cutegram.pro
+index 3c7af55..6932cfd 100644
+--- a/cutegram.pro
++++ b/cutegram.pro
+@@ -51,6 +51,7 @@ QMAKE_SUBSTITUTES += shortcut
+ contains(CONFIG, binaryMode) {
+     target.path = $$PREFIX/bin
+     INSTALLS += target
++    INSTALLS += qmlFiles
+ } else {
+     INSTALLS += qmlFiles
+ }
