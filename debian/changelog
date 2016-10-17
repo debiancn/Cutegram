@@ -1,3 +1,11 @@
+cutegram (2.9.5-1aseman-xenial+git20161016.0.08f836ce-1) unstable; urgency=medium
+
+  * New upstream commit.
+    - Compat with API57.
+    - Various fixes.
+
+ -- Boyuan Yang <073plan@gmail.com>  Mon, 17 Oct 2016 23:39:20 +0800
+
 cutegram (2.9.5-1aseman-xenial+git20160928.daeb965e.1-1) unstable; urgency=medium
 
   * New upstream commit daeb965e, released on 20160928.
