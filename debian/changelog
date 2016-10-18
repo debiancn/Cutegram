@@ -3,8 +3,11 @@ cutegram (2.9.5-1aseman-xenial+git20161016.0.08f836ce-1) unstable; urgency=mediu
   * New upstream commit.
     - Compat with API57.
     - Various fixes.
+  * Buildsystem fixes.
+    - Add global buildsystem hint.
+    - Enable as-needed linker option.
 
- -- Boyuan Yang <073plan@gmail.com>  Mon, 17 Oct 2016 23:39:20 +0800
+ -- Boyuan Yang <073plan@gmail.com>  Wed, 19 Oct 2016 01:39:51 +0800
 
 cutegram (2.9.5-1aseman-xenial+git20160928.daeb965e.1-1) unstable; urgency=medium
 
