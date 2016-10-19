@@ -1,0 +1,24 @@
+From: Boyuan Yang <073plan@gmail.com>
+Date: Wed, 19 Oct 2016 14:13:45 +0800
+Subject: mail.qml: comment out fatal handler
+
+It is really strange that the handler does not work.
+---
+ main.qml | 6 ------
+ 1 file changed, 6 deletions(-)
+
+diff --git a/main.qml b/main.qml
+index 007c8f6..6d6390c 100644
+--- a/main.qml
++++ b/main.qml
+@@ -36,10 +36,4 @@ AsemanApplication {
+         }
+     }
+ 
+-    MessageDialog {
+-        id: errorDialog
+-        title: "Fatal Error"
+-        text: "Cutegram could not be started. Additional information:"
+-        onAccepted: app.exit(1)
+-    }
+ }
