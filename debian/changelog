@@ -1,3 +1,10 @@
+cutegram (2.9.5-1aseman-xenial+git20161022.0.2373dd32-1) unstable; urgency=medium
+
+  * New upstream commit.
+    - Many Improvement and Bugfixes.
+
+ -- Boyuan Yang <073plan@gmail.com>  Sun, 23 Oct 2016 13:23:32 +0800
+
 cutegram (2.9.5-1aseman-xenial+git20161016.0.08f836ce-1) unstable; urgency=medium
 
   * New upstream commit.
